@@ -8,7 +8,7 @@ const uint32_t noiseLower = 10000;
 const uint32_t noiseUpper = 12000;
 
 // maximum is 12bit but no arduino has that much ram
-const int ringSize = 64;
+const int ringSize = 10;
 
 const int samplePeriod = 100;  // 100ms
 const int reportPeriod = 1000;  // 1s
